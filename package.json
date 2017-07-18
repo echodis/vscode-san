@@ -1,0 +1,41 @@
+{
+	"name": "san",
+	"description": "Syntax Highlight for San",
+	"version": "0.1.0",
+	"author": "zhanfang",
+	"publisher": "zhanfang",
+	"icon": "images/san-logo.png",
+	"keywords": [
+		"San",
+		"san",
+		"san.js"
+	],
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/zhanfang/vscode-san.git"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [{
+			"id": "san",
+			"aliases": ["san.js", "san"],
+			"extensions": [".san"],
+			"configuration": "./san.configuration.json"
+		}],
+		"grammars": [{
+			"language": "san",
+			"scopeName": "text.html.san",
+			"path": "./syntaxes/san.tmLanguage.json"
+		}],
+		"snippets": [{
+			"language": "san",
+			"path": "./snippets/snippets.json"
+		}]
+	},
+	"license": "MIT"
+}

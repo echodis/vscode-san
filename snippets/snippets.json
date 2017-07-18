@@ -1,0 +1,14 @@
+{
+	"san-cdn-dev": {
+		"prefix": "san-cdn-dev",
+		"body": "<script src=\"https://unpkg.com/san@latest/dist/san.dev.js\"></script>\n",
+		"description": "",
+		"scope": "text.html"
+	},
+	"san-cdn": {
+		"prefix": "san-cdn",
+		"body": "<script src=\"https://unpkg.com/san@latest\"></script>\n",
+		"description": "",
+		"scope": "text.html"
+	}
+}
